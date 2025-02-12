@@ -1,0 +1,29 @@
+= À propos d'Eclipse Adoptium®
+:page-authors: gdams, karianna, tellison, parkerm, lasombra, hendrikebbers, davew16, akdsco, dchaibou
+
+La mission du projet de premier niveau Eclipse Adoptium est de produire des environnements d'exécution de haute qualité ainsi que des technologies associées pour une utilisation dans l'écosystème Java. Nous y parvenons grâce à un ensemble de projets sous la supervision du comité de gestion de projet (PMC) d'Adoptium et à une étroite collaboration avec des projets externes, notamment OpenJDK, qui fournit l’implémentation de l’environnement d'exécution Java SE. Notre objectif est de répondre aux besoins de la communauté Eclipse ainsi qu'à ceux d'un public plus large en proposant un ensemble complet de technologies autour des
+environnements d'exécution pour les applications Java, compatibles avec les standards existants, les infrastructures et les plateformes cloud.
+
+Le projet AdoptOpenJDK a été créé en 2017 après plusieurs années de discussions sur l'absence d'un système ouvert et reproductible de compilation et de test du code source d'OpenJDK sur plusieurs plateformes. Depuis, il est devenu un fournisseur majeur de binaires OpenJDK de haute qualité, utilisés par les entreprises sur des systèmes embarqués, des ordinateurs de bureau, des serveurs traditionnels, des plateformes cloud modernes et de grands systèmes centraux (mainframes). Le projet Eclipse Adoptium est la continuation de la mission originale d'AdoptOpenJDK.
+
+== Périmètre du projet
+
+Eclipse Adoptium fournit des binaires d'exécution hautes performances, de qualité entreprise, multiplateformes, sous licence open source, testés et conformes au TCK de Java SE pour une utilisation générale dans l'écosystème Java.  
+
+Eclipse Adoptium propose également des artefacts, notamment une infrastructure open source en tant que code, une plateforme complète d'intégration continue pour la compilation et les tests, ainsi qu'une large gamme de tests d'assurance qualité. Ces artefacts peuvent être utilisés par les projets Eclipse Adoptium et d'autres développeurs de technologies d'exécution afin de garantir la fourniture d'environnements d'exécution sécurisés, testés et conformes au TCK de Java SE, prêts pour la production.
+
+Le périmètre du projet inclut le développement, la gestion, la promotion et le support de technologies telles que :  
+
+* Environnements d'exécution et kits de développement : prise en charge de l'ensemble des API spécifiées par différentes versions de Java SE, disponibles sur une large gamme d'architectures de processeurs et de combinaisons de systèmes d'exploitation.  
+* Infrastructure de tests TCK : mise en place d'une infrastructure permettant d'exécuter les TCK de Java SE afin de garantir la conformité et la compatibilité.  
+* JDK Mission Control : suite d'outils de profilage et de diagnostic à faible impact pour la JVM.  
+* Installateurs et référentiels : divers mécanismes pour obtenir et gérer l'installation des technologies d'exécution, incluant des installateurs natifs pour différentes plateformes, des images de conteneurs, des serveurs de téléchargement, un site web et des dépôts d'artefacts.  
+
+En plus de fournir une source fiable de binaires d'exécution Java modernes, le projet Eclipse Adoptium sert de plateforme d'expérimentation pour les développeurs, les universitaires et les chercheurs. Il offre un espace pour tester de nouvelles idées en matière d'exécution, de compilation, de tests et d'infrastructure.  
+
+Parmi les projets relevant de ce projet de premier niveau, on trouve : "jlink.online" : un service permettant aux développeurs d'applications de générer des environnements d'exécution adaptés à leurs besoins. "GitHub Actions" : pour obtenir et tester des runtimes dans le cadre du workflow Git. "TKG" : un framework de génération de kits de tests. "Bumblebench" : un framework de microbenchmarking. Et bien d'autres encore.
+
+== Licence(s)
+
+* Les scripts de compilation ainsi que le code permettant de produire les binaires, le site web et l'infrastructure de compilation sont sous licence https://www.apache.org/licenses/LICENSE-2.0[Apache License, Version 2.0].
+* Le code d’OpenJDK est quant à lui sous licence https://openjdk.java.net/legal/gplv2+ce.html[GPL v2 with Classpath Exception] (GPLv2+CE) et https://openjdk.java.net/legal/assembly-exception.html[GPL v2 with Assembly Exception] (GPLv2+Assembly).
